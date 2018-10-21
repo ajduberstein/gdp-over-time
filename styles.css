@@ -1,0 +1,17 @@
+.feature {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+
+.mesh {
+  fill: none;
+  stroke: lightgrey;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+}
+
+h1 {
+  font-family: sans-serif;
+}

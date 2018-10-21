@@ -1,0 +1,4 @@
+*.csv
+dist/
+.cache/
+node_modules/

@@ -1,0 +1,17 @@
+{
+  "name": "gdp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^4.0.0",
+    "d3": "^5.7.0",
+    "d3-geo": "^1.11.1",
+    "d3-geo-projection": "^2.4.1",
+    "d3-queue": "^3.0.7",
+    "d3-request": "^1.0.6",
+    "topojson": "3",
+    "topojson-client": "^3.0.0"
+  },
+  "devDependencies": {}
+}
