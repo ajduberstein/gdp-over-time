@@ -3,7 +3,7 @@ from time import sleep
 from fredapi import Fred
 import pandas as pd
 
-API_KEY = '2c73504b4c5493a98755b5b6d6820281'
+API_KEY = ''
 
 fred = Fred(api_key=API_KEY)
 links = pd.read_csv('links.csv', sep='|')
