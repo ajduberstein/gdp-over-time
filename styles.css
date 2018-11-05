@@ -1,3 +1,31 @@
+* {
+  font-family: monospace;
+  text-align: left;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+.svg-content {
+  display: inline-block;
+  position: relative;
+  max-width: 900px;
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  font: 12px monospace;		
+  rorder: 0px;
+  pointer-events: none;
+  -webkit-text-stroke: 1px black;
+}
+
 .feature {
   fill: none;
   stroke: grey;
@@ -10,8 +38,4 @@
   stroke: lightgrey;
   stroke-width: 1px;
   stroke-linejoin: round;
-}
-
-h1 {
-  font-family: sans-serif;
 }
